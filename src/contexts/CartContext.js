@@ -46,6 +46,8 @@ const CartProvider = ({ children }) => {
       setCart([...cart, newItem]);
     }
   };
+
+
   // remove from cart
   const removeFromCart = (id) => {
     const newCart = cart.filter((item) => {

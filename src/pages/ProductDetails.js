@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 
 import { useParams } from "react-router-dom";
 
-import { SidebarContext } from "../contexts/SidebarContext";
 import { CartContext } from "../contexts/CartContext";
 import { ProductContext } from "../contexts/ProductContext";
 
